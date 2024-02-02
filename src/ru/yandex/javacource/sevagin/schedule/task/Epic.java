@@ -1,4 +1,4 @@
-package ru.yandex.javacource.vigdorova.schedule.task;
+package ru.yandex.javacource.sevagin.schedule;
 
 import java.util.ArrayList;
     public class Epic extends Task {

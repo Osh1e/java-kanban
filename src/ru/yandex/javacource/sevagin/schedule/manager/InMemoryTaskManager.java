@@ -1,9 +1,9 @@
-package ru.yandex.javacource.vigdorova.schedule.manager;
+package ru.yandex.javacource.sevagin.schedule.manager;
 
-import ru.yandex.javacource.vigdorova.schedule.task.Epic;
-import ru.yandex.javacource.vigdorova.schedule.task.SubTask;
-import ru.yandex.javacource.vigdorova.schedule.task.Task;
-import ru.yandex.javacource.vigdorova.schedule.task.TaskStatus;
+import ru.yandex.javacource.sevagin.schedule.task.Epic;
+import ru.yandex.javacource.sevagin.schedule.task.SubTask;
+import ru.yandex.javacource.sevagin.schedule.task.Task;
+import ru.yandex.javacource.sevagin.schedule.task.TaskStatus;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -25,7 +25,7 @@ public class TaskManager {
         private int generateId() {
             return ++seq;
         }
-        // ru.yandex.javacource.vigdorova.schedule.task.Task
+
         public List<Task> getAllTask() {
             return new ArrayList<>(tasks.values());
         }
@@ -56,7 +56,7 @@ public class TaskManager {
         public void deleteTask(int id) {
             tasks.remove(id);
         }
-        // ru.yandex.javacource.vigdorova.schedule.task.SubTask
+
         public List<SubTask> getAllSubTask() {
             return new ArrayList<>(subtasks.values());
         }
@@ -109,7 +109,7 @@ public class TaskManager {
                     }
                 }
         }
-        // ru.yandex.javacource.vigdorova.schedule.task.Epic
+        
         public List<Epic> getAllEpic() {
             return new ArrayList<>(epics.values());
         }

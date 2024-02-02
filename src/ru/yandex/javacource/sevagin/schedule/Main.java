@@ -1,11 +1,3 @@
-package ru.yandex.javacource.sevagin.schedule;
-
-import ru.yandex.javacource.vigdorova.schedule.manager.TaskManager;
-import ru.yandex.javacource.vigdorova.schedule.task.Epic;
-import ru.yandex.javacource.vigdorova.schedule.task.SubTask;
-import ru.yandex.javacource.vigdorova.schedule.task.Task;
-import ru.yandex.javacource.vigdorova.schedule.task.TaskStatus;
-
 import java.util.List;
 
 public class Main {

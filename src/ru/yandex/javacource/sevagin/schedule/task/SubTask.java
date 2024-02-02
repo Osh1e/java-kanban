@@ -1,4 +1,4 @@
-package ru.yandex.javacource.vigdorova.schedule.task;
+package ru.yandex.javacource.sevagin.schedule;
 
 public class SubTask extends Task {
     private int epicId;

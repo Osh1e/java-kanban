@@ -1,4 +1,4 @@
-package ru.yandex.javacource.vigdorova.schedule.task;
+package ru.yandex.javacource.sevagin.schedule;
 
 public enum TaskStatus {
     NEW,
