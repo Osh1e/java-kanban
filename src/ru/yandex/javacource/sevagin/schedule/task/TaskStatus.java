@@ -1,4 +1,4 @@
-package ru.yandex.javacource.sevagin.schedule;
+package ru.yandex.javacource.sevagin.schedule.task;
 
 public enum TaskStatus {
     NEW,

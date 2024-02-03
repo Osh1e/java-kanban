@@ -1,4 +1,4 @@
-package ru.yandex.javacource.sevagin.schedule;
+package ru.yandex.javacource.sevagin.schedule.task;
 
 import java.util.ArrayList;
 import java.util.Objects;
@@ -67,7 +67,7 @@ import java.util.Objects;
 
         @Override
         public String toString() {
-            return "ru.yandex.javacource.vigdorova.schedule.task.ru.yandex.javacource.sevagin.schedule.Task{" +
+            return "ru.yandex.javacource.vigdorova.schedule.task.ru.yandex.javacource.sevagin.schedule.task.Task{" +
                     "id=" + id +
                     ", name='" + name + '\'' +
                     ", status=" + status +

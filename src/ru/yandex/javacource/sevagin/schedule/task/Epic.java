@@ -1,4 +1,4 @@
-package ru.yandex.javacource.sevagin.schedule;
+package ru.yandex.javacource.sevagin.schedule.task;
 
 import java.util.ArrayList;
     public class Epic extends Task {
@@ -18,6 +18,6 @@ import java.util.ArrayList;
         }
 
         public void removeSubTaskId(int subTaskId) {
-            subTaskIds.remove(subTaskId);
+            subTaskIds.remove(Integer.valueOf(subTaskId));
         }
 }
