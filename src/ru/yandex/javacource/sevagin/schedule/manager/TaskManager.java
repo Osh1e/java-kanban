@@ -1,4 +1,8 @@
-package ru.yandex.javacource.sevagin.schedule.task;
+package ru.yandex.javacource.sevagin.schedule.manager;
+
+import ru.yandex.javacource.sevagin.schedule.task.Epic;
+import ru.yandex.javacource.sevagin.schedule.task.SubTask;
+import ru.yandex.javacource.sevagin.schedule.task.Task;
 
 import java.util.List;
 

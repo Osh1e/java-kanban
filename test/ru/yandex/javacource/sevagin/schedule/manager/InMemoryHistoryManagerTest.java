@@ -1,3 +1,5 @@
+package ru.yandex.javacource.sevagin.schedule.manager;
+
 import org.junit.jupiter.api.Test;
 import ru.yandex.javacource.sevagin.schedule.manager.InMemoryHistoryManager;
 import ru.yandex.javacource.sevagin.schedule.task.Task;

@@ -1,6 +1,7 @@
 package ru.yandex.javacource.sevagin.schedule;
 
 import ru.yandex.javacource.sevagin.schedule.manager.InMemoryTaskManager;
+import ru.yandex.javacource.sevagin.schedule.manager.TaskManager;
 import ru.yandex.javacource.sevagin.schedule.task.*;
 
 import java.util.List;
@@ -50,7 +51,13 @@ public class Main {
             subTask1.setStatus(TaskStatus.DONE);
             inMemoryTaskManager.updateSubTask(subTask1);
 
-            Epic uddateEpicResult = inMemoryTaskManager.getEpic(epic.getId());
+            Epic updateEpicResult = inMemoryTaskManager.getEpic(epic.getId());
             System.out.println("\nСтатус эпика после обновления подзадачи: " + updateTaskResult.getStatus());
+
+            System.out.println("\nИстория просмотров задач:");
+            List<Task> history = inMemoryTaskManager.getHistory();
+            for (Task task : history) {
+                System.out.println(task.getName() + " (ID: " + task.getId() + ")");
+            }
         }
 }

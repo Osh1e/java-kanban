@@ -1,3 +1,5 @@
+package ru.yandex.javacource.sevagin.schedule.task;
+
 import org.junit.jupiter.api.Test;
 import ru.yandex.javacource.sevagin.schedule.task.Task;
 import ru.yandex.javacource.sevagin.schedule.task.TaskStatus;
